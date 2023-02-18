@@ -43,6 +43,4 @@ class PensiveLightBrownSalmon(QCAlgorithm):
                 self.Log("SELL SPY @" + str(price))
                 self.nextEntryTime = self.Time + self.period
 
-            # self.SetHoldings("SPY", 0.33)
-            # self.SetHoldings("BND", 0.33)
-            # self.SetHoldings("AAPL", 0.33)
+            
